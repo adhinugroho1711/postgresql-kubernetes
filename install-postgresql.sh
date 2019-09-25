@@ -1,0 +1,2 @@
+wget https://raw.githubusercontent.com/helm/charts/master/stable/postgresql/values-production.yaml
+helm install --name postgresql -f values-production.yaml --set postgresqlPassword=jateng001 --set replication.password=jateng001 --set postgresqlDatabase=master stable/postgresql
