@@ -31,7 +31,7 @@ spec:
 kind: PersistentVolume
 apiVersion: v1
 metadata:
-  name: data-postgresql-slave-0
+  name: data-postgresql-postgresql-slave-0
   labels:
     type: local
     app: postgresql
@@ -47,7 +47,7 @@ spec:
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
-  name: data-postgresql-slave-0
+  name: data-postgresql-postgresql-slave-1
   labels:
     app: postgresql
 spec:
