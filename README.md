@@ -1,5 +1,10 @@
 # postgresql-kubernetes
 
+## Important step to install
+```
+makesure to create 1 master and 2 worker on kubernetes
+```
+
 ## check cluster
 ```
 kubectl run postgresql-client --rm --tty -i --image bitnami/postgresql --env="PGPASSWORD=jateng001" --command -- psql --host my-release-postgresql -U postgres
