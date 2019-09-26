@@ -47,7 +47,7 @@ spec:
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
-  name: data-postgresql-postgresql-slave-1
+  name: data-postgresql-postgresql-slave-0
   labels:
     app: postgresql
 spec:
