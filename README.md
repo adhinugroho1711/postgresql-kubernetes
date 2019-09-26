@@ -15,6 +15,6 @@ master=# SELECT client_addr, state FROM pg_stat_replication;
 kubectl scale statefulset postgresql-slave --replicas=3
 ```
 
-## Built With
+## Source
 
 * [Bitnami](https://engineering.bitnami.com/articles/create-a-production-ready-postgresql-cluster-bitnami-kubernetes-and-helm.html) - Production-Ready PostgreSQL Cluster
