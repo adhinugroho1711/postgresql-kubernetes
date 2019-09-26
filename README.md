@@ -17,4 +17,4 @@ kubectl scale statefulset postgresql-slave --replicas=3
 
 ## Built With
 
-* [Biinami](https://engineering.bitnami.com/articles/create-a-production-ready-postgresql-cluster-bitnami-kubernetes-and-helm.html) - Production-Ready PostgreSQL Cluster
+* [Bitnami](https://engineering.bitnami.com/articles/create-a-production-ready-postgresql-cluster-bitnami-kubernetes-and-helm.html) - Production-Ready PostgreSQL Cluster
