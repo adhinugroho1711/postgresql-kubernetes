@@ -7,7 +7,7 @@ makesure to create 1 master and 2 worker on kubernetes
 
 ## check cluster
 ```
-kubectl run postgresql-client --rm --tty -i --image bitnami/postgresql --env="PGPASSWORD=jateng001" --command -- psql --host my-release-postgresql -U postgres
+kubectl run postgresql-client --rm --tty -i --image bitnami/postgresql --env="PGPASSWORD=********" --command -- psql --host my-release-postgresql -U postgres
 
 master=# SELECT client_addr, state FROM pg_stat_replication;
  client_addr |   state   
