@@ -96,7 +96,7 @@ replication:
   synchronousCommit: "on"
   ## From the number of `slaveReplicas` defined above, set the number of those that will have synchronous replication
   ## NOTE: It cannot be > slaveReplicas
-  numSynchronousReplicas: 1
+  numSynchronousReplicas: 0
   ## Replication Cluster application name. Useful for defining multiple replication policies
   applicationName: my_application
 
